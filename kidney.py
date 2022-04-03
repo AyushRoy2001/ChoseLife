@@ -19,7 +19,7 @@ def app():
     lottie_boom = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_zvkbowj2.json")
     st_lottie(lottie_boom)
    
-    model = joblib.load(open('KIdney.joblib','rb'))
+    model = joblib.load(open('Kidney.joblib','rb'))
    
     age = st.number_input('Insert your age')
     bp = st.number_input('Enter Blood Pressure')
