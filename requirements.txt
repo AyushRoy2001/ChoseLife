@@ -5,3 +5,4 @@ Pillow==9.1.0
 requests==2.26.0
 streamlit==1.2.0
 streamlit_lottie==0.0.3
+scikit-learn
