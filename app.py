@@ -8,8 +8,7 @@ import streamlit as st
 PAGES = {
     "Heart Diesease Detection": heart,
     "Kidney Diesease Detection": kidney,
-    "Diabetes Diesease Detection": diabetes,
-    "Exercise": exercise
+    "Diabetes Diesease Detection": diabetes
 }
 st.sidebar.title('NAVIGATION')
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))
