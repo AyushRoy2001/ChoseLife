@@ -1,6 +1,5 @@
 import heart
 import kidney
-import exercise
 import diabetes
 import streamlit as st
 
